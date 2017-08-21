@@ -1,0 +1,34 @@
+{
+  "ids": {
+    "User": 3,
+    "AccessToken": 3,
+    "ACL": 1,
+    "RoleMapping": 1,
+    "Role": 1,
+    "Product": 7,
+    "Category": 6
+  },
+  "models": {
+    "User": {
+      "1": "{\"username\":\"shinya\",\"password\":\"$2a$10$rW.q.KRfgqe1OLNKajmgae4f5rbD2xnK3C4kGEXdHXSk6n0wWPhne\",\"email\":\"shinya@test.com\",\"emailVerified\":false,\"id\":1}",
+      "2": "{\"password\":\"$2a$10$83zPWATGT866B786M2e4LumWPYMtzElbCD/pgouhIk59YQoVytAr2\",\"email\":\"admin@example.com\",\"id\":2}"
+    },
+    "AccessToken": {
+      "s3cr3t": "{\"id\":\"s3cr3t\",\"userId\":2}",
+      "jlqZdk54ld0ZFqH1UxOh8EHvNJFotcwO6A1tjW4LXExdgww19UjVDE2J4SgaOLEE": "{\"id\":\"jlqZdk54ld0ZFqH1UxOh8EHvNJFotcwO6A1tjW4LXExdgww19UjVDE2J4SgaOLEE\",\"ttl\":1209600,\"created\":\"2017-07-19T17:59:43.523Z\",\"userId\":1}"
+    },
+    "ACL": {},
+    "RoleMapping": {},
+    "Role": {},
+    "Product": {
+      "1": "{\"name\":\"Hot Cofee\",\"price\":300,\"id\":1,\"categoryId\":1}",
+      "2": "{\"name\":\"Hot Tea\",\"price\":250,\"id\":2,\"categoryId\":1}",
+      "3": "{\"name\":\"Fried Chicken\",\"price\":500,\"categoryId\":2,\"id\":3}",
+      "4": "{\"name\":\"Hamburger\",\"price\":400,\"categoryId\":2,\"id\":4}"
+    },
+    "Category": {
+      "1": "{\"name\":\"Drinks\",\"id\":1}",
+      "2": "{\"name\":\"Food\",\"id\":2}"
+    }
+  }
+}
