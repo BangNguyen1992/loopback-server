@@ -2,8 +2,8 @@
   "name": "Category",
   "description": "A Category model representing our categories.",
   "base": "PersistedModel",
-  "idInjection": true,
   "strict": true,
+  "idInjection": true,
   "options": {
     "validateUpsert": true
   },
